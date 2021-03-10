@@ -1,3 +1,9 @@
+@media (max-width: 1250px) {
+    .flexOne > div:nth-child(1) {
+    width: 90%;
+    margin: 0 24px;
+    }
+}
 @media (max-width: 900px) {
     header h1 {
         font-size: 87px;
@@ -32,7 +38,6 @@
     ul li {
         margin-right:39px;
     }
-
 
 }
 
@@ -71,7 +76,7 @@
         transform: rotate(1deg);
         }
 }
-// @media (max-width: px) {}
+
 // @media (max-width: px) {}
 // @media (max-width: px) {}
 // @media (max-width: px) {}

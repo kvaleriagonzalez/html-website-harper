@@ -364,6 +364,13 @@ ul li {
   padding-right: 0;
 }
 
+@media (max-width: 1250px) {
+  .flexOne > div:nth-child(1) {
+    width: 90%;
+    margin: 0 24px;
+  }
+}
+
 @media (max-width: 900px) {
   header h1 {
     font-size: 87px;
@@ -438,4 +445,46 @@ ul li {
     -webkit-transform: rotate(1deg);
             transform: rotate(1deg);
   }
+}
+
+.flexOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.flexOne div {
+  padding: 60px 0;
+  width: 48%;
+}
+
+.flexOne h2 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  color: #171717;
+}
+
+.flexOne p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  padding: 10px 0;
+}
+
+.flexOne .more {
+  font-family: 20px;
+  padding: 8px 16px;
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 1px;
+  background-color: #f38d8d;
+  color: #171717;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  border: none;
 }
