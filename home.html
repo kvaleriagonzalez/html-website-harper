@@ -13,7 +13,7 @@
 <body>
     <header>
        <div class="wrapper">
-           <nav>
+        <nav class="hideNav">
            <ul>
                <li><a href=""></a>Home</li>
                <li><a href=""></a>About</li>
@@ -21,8 +21,20 @@
                <li><a href=""></a>blog</li>
                <li><a href=""></a>contact</li>
            </ul>
-       </nav>
-        <div class="flex">
+        </nav>
+       <div class="mobile-container">
+                <div class="topnav">
+                <div id="myLinks">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        <div class="flex mediaHeader">
                <div>
                    <img class="harperPicture" src="./assets/home-image-1.jpg" alt="">
                </div>
@@ -32,6 +44,7 @@
                </div>
         </div>
        </div>
+       
     </header>
     <!-- <main>
         <section>
@@ -117,5 +130,6 @@
     <footer>
         <p>copyright<span>&#169;</span> 2018 hacker you </p>
     </footer> -->
+    <script src="main.js"></script>
 </body>
 </html>

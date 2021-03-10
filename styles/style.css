@@ -339,3 +339,103 @@ ul li {
   letter-spacing: 1px;
   font-family: "Oswald", sans-serif;
 }
+
+.topnav a {
+  float: left;
+  color: #171717;
+  font-family: "Oswald", sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+#myLinks > a:nth-child(4),
+#myLinks > a:nth-child(3),
+#myLinks > a:nth-child(2),
+#myLinks > a:nth-child(1) {
+  padding-right: 0;
+}
+
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 87px;
+    top: 118px;
+  }
+  header .circlePhoto {
+    right: 75px;
+    width: 105px;
+    bottom: -93px;
+  }
+  ul li {
+    font-size: 14px;
+  }
+  ul :nth-child(3) {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 755px) {
+  .mediaHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+    margin-left: 21%;
+  }
+  header h1 {
+    top: 129px;
+  }
+  header .circlePhoto {
+    bottom: -106px;
+  }
+  ul li {
+    margin-right: 39px;
+  }
+}
+
+@media (max-width: 540px) {
+  .mediaHeader {
+    margin-left: 15%;
+  }
+  .hideNav {
+    display: none;
+  }
+}
+
+@media (min-width: 540px) {
+  #myLinks > a, .icon {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .mediaHeader {
+    margin-left: 6%;
+  }
+  header .harperPicture {
+    width: 72%;
+    top: 120px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  header h1 {
+    font-size: 58px;
+    top: 140px;
+  }
+  header .circlePhoto {
+    right: 47px;
+    width: 76px;
+    bottom: -45px;
+    -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+  }
+}
