@@ -1,0 +1,53 @@
+header {
+    background-color: $primary3;
+    height: 100vh;
+    .flex { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .harperPicture {
+        width: 85%;
+        position: relative;
+        top: 90px;
+        box-shadow: 12px 9px $white;
+    }
+    h1 {
+        font-size:120px; 
+        font-family: $headerFont;
+        text-transform: uppercase;
+        position: relative;
+        top:30px;
+    }
+    .circlePhoto {
+        position: relative;
+        right: 109px;
+        width: 152px;
+        bottom: 6px;
+    }
+}
+
+ul {
+    display: flex;
+    padding:20px;
+    justify-content: center;
+    :first-child {
+        color:$white;
+    }
+    :nth-child(3) {
+        font-size: 35px;
+    }
+    :nth-child(5) {
+        margin-left:0;
+    }
+    li {
+    margin-right:75px;
+    text-transform: uppercase;
+    color:$black;    
+    font-size:20px;
+    line-height: 29px;
+    letter-spacing: 1px;   
+    font-family: $headerFont;
+    }
+}
