@@ -1,0 +1,127 @@
+.flexOne {
+    display:flex;
+    justify-content: end;
+
+    div {
+        padding:100px 0;
+        width:48%;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-family: $headerFont;
+        letter-spacing: 1px;
+        color: $black;
+    }
+    p {
+        font-family: $bodyFont;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        padding:10px 0;
+    }
+    .more {
+        font-family: 20px;
+        padding:8px 16px;
+        text-align: center;
+        line-height: 28px;
+        letter-spacing: 1px;
+        background-color: $accent;
+        color: $black;
+        text-transform: uppercase;
+        font-family: $headerFont;
+        border: none;
+    }
+}
+
+
+.sectionStyle{
+    padding:90px 0;
+    .sectionThirdFlex {
+        display: flex;
+        justify-content: space-between;
+        div {
+            width:45%;
+            h3 {
+                text-transform: uppercase;
+                font-family: $headerFont;
+                font-size:32px;
+                letter-spacing: 1px;
+                margin-bottom:0;
+            }
+        }
+    }
+    .moveIcon {
+    margin-right:20px;
+    background:$primary2;
+    padding:10px;
+    border-radius: 50%;
+    }
+    .thirdSection p {
+        margin-left:65px;
+        margin-top: 10px;
+        font-family: $bodyFont;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0px;
+    }
+}
+
+div.flex-travel:nth-child(1) {
+    margin-bottom: 100px;
+}
+
+.flex-travel {
+    display: flex;
+    justify-content: space-between;
+    div {
+        width: 45%;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-family: $headerFont;
+        font-size:32px;
+        letter-spacing: 1px;
+        margin-bottom:0;
+    }
+    img {
+        width:500px;
+    }
+    p {
+        font-family: $bodyFont;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        padding:10px 0;
+    }  
+    .travelOne {
+        box-shadow: -80px 15px $primary1;
+    }
+    .travelTwo {
+        box-shadow: 80px 15px $primary1;
+    }
+}
+
+div.flex-travel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
+div.flex-travel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
+    font-family: 20px;
+    padding:8px 16px;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 1px;
+    background-color: $accent;
+    color: $black;
+    text-transform: uppercase;
+    font-family: $headerFont;
+    border: none;
+}
+
+.journeyColor {
+    background-color:$primary4;
+    .journeySection {
+        padding: 90px 0px;
+        display: flex;
+        div {
+            width: 45%;
+        }
+    }
+}

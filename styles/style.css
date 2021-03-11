@@ -544,3 +544,79 @@ ul li {
   line-height: 28px;
   letter-spacing: 0px;
 }
+
+div.flex-travel:nth-child(1) {
+  margin-bottom: 100px;
+}
+
+.flex-travel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-travel div {
+  width: 45%;
+}
+
+.flex-travel h3 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.flex-travel img {
+  width: 500px;
+}
+
+.flex-travel p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  padding: 10px 0;
+}
+
+.flex-travel .travelOne {
+  -webkit-box-shadow: -80px 15px #227284;
+          box-shadow: -80px 15px #227284;
+}
+
+.flex-travel .travelTwo {
+  -webkit-box-shadow: 80px 15px #227284;
+          box-shadow: 80px 15px #227284;
+}
+
+div.flex-travel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
+div.flex-travel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
+  font-family: 20px;
+  padding: 8px 16px;
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 1px;
+  background-color: #f38d8d;
+  color: #171717;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+
+.journeyColor {
+  background-color: #f6f6f6;
+}
+
+.journeyColor .journeySection {
+  padding: 90px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.journeyColor .journeySection div {
+  width: 45%;
+}
