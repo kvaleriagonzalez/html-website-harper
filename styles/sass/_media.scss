@@ -48,6 +48,19 @@
     .hideNav {
         display: none;
     }
+    .sectionStyle .sectionThirdFlex .thirdSection {
+        width: 97%;
+    }
+    .sectionThirdFlex {
+        flex-direction: column;
+    }
+    .flexOne .sizeP, .thirdSection .sizeP {
+        font-size: 18px;
+    }
+    .sectionStyle .sectionThirdFlex div .sizeH3 {
+        font-size: 23px;
+    }
+
 }
 
 @media (min-width:540px) {

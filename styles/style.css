@@ -416,6 +416,21 @@ ul li {
   .hideNav {
     display: none;
   }
+  .sectionStyle .sectionThirdFlex .thirdSection {
+    width: 97%;
+  }
+  .sectionThirdFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flexOne .sizeP, .thirdSection .sizeP {
+    font-size: 18px;
+  }
+  .sectionStyle .sectionThirdFlex div .sizeH3 {
+    font-size: 23px;
+  }
 }
 
 @media (min-width: 540px) {
@@ -457,7 +472,7 @@ ul li {
 }
 
 .flexOne div {
-  padding: 60px 0;
+  padding: 100px 0;
   width: 48%;
 }
 
@@ -487,4 +502,45 @@ ul li {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   border: none;
+}
+
+.sectionStyle {
+  padding: 90px 0;
+}
+
+.sectionStyle .sectionThirdFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionStyle .sectionThirdFlex div {
+  width: 45%;
+}
+
+.sectionStyle .sectionThirdFlex div h3 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.moveIcon {
+  margin-right: 20px;
+  background: #9aedff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.thirdSection p {
+  margin-left: 65px;
+  margin-top: 10px;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
 }
