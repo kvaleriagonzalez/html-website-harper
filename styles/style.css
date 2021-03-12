@@ -702,3 +702,16 @@ div.flex-travel:nth-child(1) {
 .color {
   background-color: #f6f6f6;
 }
+
+.gallery ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  padding: 100px 0;
+  margin: 0 5px 0 5px;
+}
+
+.gallery ul {
+  padding: 0;
+}

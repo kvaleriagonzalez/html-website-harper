@@ -177,11 +177,20 @@ div.flex-travel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
     }
 }
 
-
-
 div.flex-travel:nth-child(1) {
     margin-bottom: 100px;
 }
 .color {
     background-color: $primary4;
+}
+.gallery {
+    ul li {
+    display: flex;
+    width:33%;
+    padding:100px 0;
+    margin:0 5px 0 5px;
+    }
+    ul {
+        padding:0;
+    }
 }
