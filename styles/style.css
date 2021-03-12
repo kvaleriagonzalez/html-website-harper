@@ -386,6 +386,12 @@ ul li {
 }
 
 @media (max-width: 900px) {
+  .journeySection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   header h1 {
     font-size: 87px;
     top: 118px;
