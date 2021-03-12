@@ -715,3 +715,20 @@ div.flex-travel:nth-child(1) {
 .gallery ul {
   padding: 0;
 }
+
+footer {
+  margin: 0;
+}
+
+footer p {
+  background-color: #171717;
+  color: #f6f6f6;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  padding: 10px 0;
+  margin: 0;
+}
