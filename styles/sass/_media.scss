@@ -1,3 +1,15 @@
+ @media (max-width: 1350px) {
+    .box, .boxTwo {
+        display:none;
+    }
+    .travelOne {
+    box-shadow: -17px 12px $primary1;
+    }
+    .travelTwo {
+        box-shadow: 11px 12px $primary1;
+    }
+}
+
 @media (max-width: 1250px) {
     .flexOne > div:nth-child(1) {
     width: 90%;
