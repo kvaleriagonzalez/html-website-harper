@@ -59,6 +59,15 @@
     .journeyColor div .journeyImg {
     margin: 0px;
     }
+    .gallery ul {
+    flex-direction: column;
+    align-items: center;
+    }
+    .gallery .gallery-size li {
+    width: 100%;
+    align-items: center;
+    padding: 50px;
+    }
 }
 
 @media (max-width: 540px) {
