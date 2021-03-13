@@ -53,7 +53,12 @@
     ul li {
         margin-right:39px;
     }
-
+    .journeySection{
+    align-items: center;
+    }
+    .journeyColor div .journeyImg {
+    margin: 0px;
+    }
 }
 
 @media (max-width: 540px) {
