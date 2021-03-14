@@ -364,20 +364,6 @@ ul li {
   padding-right: 0;
 }
 
-@media (max-width: 1350px) {
-  .box, .boxTwo {
-    display: none;
-  }
-  .travelOne {
-    -webkit-box-shadow: -17px 12px #227284;
-            box-shadow: -17px 12px #227284;
-  }
-  .travelTwo {
-    -webkit-box-shadow: 11px 12px #227284;
-            box-shadow: 11px 12px #227284;
-  }
-}
-
 @media (max-width: 1250px) {
   .flexOne > div:nth-child(1) {
     width: 90%;
@@ -600,7 +586,7 @@ ul li {
 }
 
 .flex-travel div {
-  width: 45%;
+  width: 39%;
 }
 
 .flex-travel h3 {
@@ -612,7 +598,7 @@ ul li {
 }
 
 .flex-travel img {
-  width: 500px;
+  width: 70%;
   z-index: 10;
 }
 
@@ -629,12 +615,12 @@ ul li {
 }
 
 .flex-travel .boxOne .box {
-  width: 680px;
-  height: 350px;
+  width: 98%;
+  height: 314px;
   position: relative;
-  background: #227284;
+  background: #9aedff;
   bottom: 330px;
-  right: 150px;
+  right: 86px;
 }
 
 .flex-travel .travelOne, .flex-travel .travelTwo {
@@ -643,12 +629,21 @@ ul li {
 }
 
 .flex-travel .boxOne .boxTwo {
-  width: 700px;
+  width: calc(98% - 20px);
   height: 300px;
   position: relative;
-  background: #227284;
+  background: #9aedff;
   bottom: 280px;
   left: 20px;
+}
+
+.flex-travel .travelOne {
+  margin-left: 83px;
+  top: -43px;
+}
+
+.flex-travel .travelDiv, .flex-travel .favouriteDiv {
+  margin: auto;
 }
 
 div.flex-travel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
@@ -720,7 +715,7 @@ div.flex-travel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
 }
 
 div.flex-travel:nth-child(1) {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .color {
