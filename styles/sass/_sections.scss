@@ -224,29 +224,66 @@ footer {
     .blogImage {
         height: 100%;
     }
+    
     h2 {
-            font-size:70px;
-            font-family: $headerFont;
-            position: absolute;
-            bottom: 260px;
-            text-transform: uppercase;
-            margin-left:140px;
-        }
+        font-size:70px;
+        font-family: $headerFont;
+        position: absolute;
+        bottom: 260px;
+        text-transform: uppercase;
+        margin-left:140px;
+    }
+}
+
+.blogOne {
+    background-color: $primary4;
+    p {
+        font-family: $bodyFont;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0px;
+    }
 }
 
 .blogTop {
         padding-top: 200px;
+        padding-bottom:50px;
     }
 .flexContainer {
         display: flex;
         justify-content: space-between;
         .firstDiv {
         width:30%;
+        div {
+            background-color: #ffffff;
+            padding: 20px;
+        }
     }
+
     .secondDiv {
-        width: 55%;
+        width: 65%;
+        background-color: #ffffff;
+        padding: 20px;
+        border-bottom: 5px solid $primary1;
     }
-
+    .post {
+        margin-top:25px;
+        ul li {
+            margin-left:20px;
+        }
+    }
+    h4 {
+        font-size: 24px;
+        font-family: $headerFont;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
 }
-    
-
+.flexEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    div {
+        width: 40%;
+    }
+}
