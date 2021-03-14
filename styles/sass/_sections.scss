@@ -216,3 +216,37 @@ footer {
         margin: 0;
     }
 }
+
+// blog
+
+.blog {
+    height: 50vh;
+    .blogImage {
+        height: 100%;
+    }
+    h2 {
+            font-size:70px;
+            font-family: $headerFont;
+            position: absolute;
+            bottom: 260px;
+            text-transform: uppercase;
+            margin-left:140px;
+        }
+}
+
+.blogTop {
+        padding-top: 200px;
+    }
+.flexContainer {
+        display: flex;
+        justify-content: space-between;
+        .firstDiv {
+        width:30%;
+    }
+    .secondDiv {
+        width: 55%;
+    }
+
+}
+    
+

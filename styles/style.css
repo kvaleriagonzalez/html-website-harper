@@ -244,12 +244,13 @@ html {
 
 h1,
 h2,
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
 
-ul {
+ol {
   list-style-type: none;
 }
 
@@ -308,7 +309,7 @@ header .circlePhoto {
   bottom: 6px;
 }
 
-ul {
+ol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,19 +319,19 @@ ul {
           justify-content: center;
 }
 
-ul :first-child {
+ol :first-child {
   color: #f6f6f6;
 }
 
-ul :nth-child(3) {
+ol :nth-child(3) {
   font-size: 35px;
 }
 
-ul :nth-child(5) {
+ol :nth-child(5) {
   margin-left: 0;
 }
 
-ul li {
+ol li {
   margin-right: 75px;
   text-transform: uppercase;
   color: #171717;
@@ -387,10 +388,10 @@ ul li {
     width: 105px;
     bottom: -93px;
   }
-  ul li {
+  ol li {
     font-size: 14px;
   }
-  ul :nth-child(3) {
+  ol :nth-child(3) {
     font-size: 24px;
   }
 }
@@ -410,7 +411,7 @@ ul li {
   header .circlePhoto {
     bottom: -106px;
   }
-  ul li {
+  ol li {
     margin-right: 39px;
   }
   .journeySection {
@@ -421,7 +422,7 @@ ul li {
   .journeyColor div .journeyImg {
     margin: 0px;
   }
-  .gallery ul {
+  .gallery ol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -750,4 +751,42 @@ footer p {
   letter-spacing: 0px;
   padding: 10px 0;
   margin: 0;
+}
+
+.blog {
+  height: 50vh;
+}
+
+.blog .blogImage {
+  height: 100%;
+}
+
+.blog h2 {
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  bottom: 260px;
+  text-transform: uppercase;
+  margin-left: 140px;
+}
+
+.blogTop {
+  padding-top: 200px;
+}
+
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexContainer .firstDiv {
+  width: 30%;
+}
+
+.flexContainer .secondDiv {
+  width: 55%;
 }
