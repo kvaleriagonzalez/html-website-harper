@@ -11,48 +11,57 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="contactMe">
         <nav>
-            <ul>
+            <ol>
                <li><a href=""></a>Home</li>
                <li><a href=""></a>About</li>
                <li><a href=""></a>harper</li>
                <li><a href=""></a>blog</li>
                <li><a href=""></a>contact</li>
-           </ul>
+            </ol>
         </nav>
-        <img src="./assets/contact-image-1.jpg" alt="">
-        <h1>contact me</h1>
+        <img class="blogImage" src="./assets/contact-image-1.jpg" alt="">
+        <h2>contact me</h2>
     </header>
     <main>
         <section>
-            <div>
-                <div>
-                    <ul>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-linkedin-in"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
-                    </ul>
-                    <p>info@email.com</p>
-                    <p>123-456-7890</p>
-                    <p>123 queen street west, unit 10</p>
-                    <p>toronto,ontario</p>
-                    <p>m5v2d5</p>
-                </div>
-                <div>
-                    <form>
-                        <label for="fullNname"></label>
-                        <input type="text" id="fname" name="firstname" placeholder="Name" class="form-field"required>
-                        <label for="lname"></label>
-                        <input type="text" id="email" name="email" placeholder="Email adress" class="form-field"required>
-                        <label for="subject"></label>
-                        <textarea id="subject" name="subject" placeholder="Comment" class="form-field"
-                        style="height:200px" required></textarea>
-                        <input class="hover" type="submit" value="Submit">
-                    </form>
+            <div class="colorContact">
+                <div class="wrapper">
+                    <div class="flexContactDiv">
+                        <div class="iconsDiv">
+                            <ul class="flexIcons">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-linkedin-in"></i></li>
+                                <li><i class="fab fa-instagram"></i></li>
+                            </ul>
+                            <ul class="styleIcons">
+                                <li>info@email.com</li>
+                                <li>123-456-7890</li>
+                                <li>123 Queen Street West, unit 10</li>
+                                <li>Toronto,Ontario</li>
+                                <li>M5V2D5</li>
+                            </ul>
+                            
+                        </div>
+                        <div class="contactForm">
+                            <form>
+                                <label for="fullNname"></label>
+                                <input type="text" id="fname" name="firstname" placeholder="Name" class="form-field"required>
+                                <label for="lname"></label>
+                                <input type="text" id="email" name="email" placeholder="Email adress" class="form-field"required>
+                                <label for="subject"></label>
+                                <textarea id="subject" name="subject" placeholder="Comment" class="form-field"
+                                style="height:200px" required></textarea>
+                                <input class="submit" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+            
         </section>
     </main>
     <footer>

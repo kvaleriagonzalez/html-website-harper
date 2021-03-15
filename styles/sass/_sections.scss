@@ -220,11 +220,9 @@ footer {
 // blog
 
 .blog {
-    height: 50vh;
     .blogImage {
         height: 100%;
     }
-    
     h2 {
         font-size:70px;
         font-family: $headerFont;
@@ -321,10 +319,12 @@ border-bottom: 5px solid $primary1;
     #fname {
     padding: 10px 0px 10px 20px;
     width: calc(50% - 3px);
+    border:none;
     }
     #email {
     padding: 10px 0px 10px 20px;
     width: calc(50% - 3px);
+    border:none;
     }
 
     form {
@@ -358,3 +358,91 @@ border-bottom: 5px solid $primary1;
         opacity: none;
     }
 }
+
+// contact page
+
+.contactMe {
+    height: 50vh;
+        h2 {
+        font-size:70px;
+        font-family: $headerFont;
+        position: absolute;
+        bottom: 260px;
+        text-transform: uppercase;
+        margin-left:140px;
+    }
+    img {
+        height: 100%;
+    }
+}
+
+.iconsDiv {
+    width: 30%;
+    background: $white;
+    padding: 20px;
+    height: 307px;
+    .flexIcons {
+        display:flex;
+        list-style: none;
+        color:$primary1;
+        
+        li {
+            margin:10px;
+        }
+    }
+        .styleIcons {
+        list-style: none;
+        li {
+            margin:10px;
+            font-family: $bodyFont;
+            font-weight: lighter;
+        }
+        li:nth-child(1) {
+                font-weight: bold;
+                font-family: $bodyFont;
+        }
+    }
+}
+.contactForm {
+width: 60%;
+}
+.contactForm form {
+  width: 87%;
+    #fname {
+        width: 49.5%;
+        padding: 10px;
+    }
+    #email {
+    width: 49.5%;
+    padding: 10px;
+    }
+    #subject {
+    display: block;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    }
+    .submit {
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    border: none;
+    background: $accent;
+    font-family: $headerFont;
+    font-size: 20px;
+    }
+
+}
+.flexContactDiv {
+    display: flex;
+    padding-top:200px;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+.colorContact{
+    background-color: $primary4;
+}
+

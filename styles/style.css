@@ -753,10 +753,6 @@ footer p {
   margin: 0;
 }
 
-.blog {
-  height: 50vh;
-}
-
 .blog .blogImage {
   height: 100%;
 }
@@ -884,11 +880,13 @@ div.flexBlogP:nth-child(2) {
 .formFlex #fname {
   padding: 10px 0px 10px 20px;
   width: calc(50% - 3px);
+  border: none;
 }
 
 .formFlex #email {
   padding: 10px 0px 10px 20px;
   width: calc(50% - 3px);
+  border: none;
 }
 
 .formFlex form {
@@ -922,4 +920,108 @@ div.flexBlogP:nth-child(2) {
   font-size: 20px;
   color: #171717;
   opacity: none;
+}
+
+.contactMe {
+  height: 50vh;
+}
+
+.contactMe h2 {
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  bottom: 260px;
+  text-transform: uppercase;
+  margin-left: 140px;
+}
+
+.contactMe img {
+  height: 100%;
+}
+
+.iconsDiv {
+  width: 30%;
+  background: #ffff;
+  padding: 20px;
+  height: 307px;
+}
+
+.iconsDiv .flexIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  color: #227284;
+}
+
+.iconsDiv .flexIcons li {
+  margin: 10px;
+}
+
+.iconsDiv .styleIcons {
+  list-style: none;
+}
+
+.iconsDiv .styleIcons li {
+  margin: 10px;
+  font-family: "Cabin", sans-serif;
+  font-weight: lighter;
+}
+
+.iconsDiv .styleIcons li:nth-child(1) {
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+}
+
+.contactForm {
+  width: 60%;
+}
+
+.contactForm form {
+  width: 87%;
+}
+
+.contactForm form #fname {
+  width: 49.5%;
+  padding: 10px;
+}
+
+.contactForm form #email {
+  width: 49.5%;
+  padding: 10px;
+}
+
+.contactForm form #subject {
+  display: block;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.contactForm form .submit {
+  width: 100%;
+  margin-top: 10px;
+  padding: 7px;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+  border: none;
+  background: #f38d8d;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.flexContactDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.colorContact {
+  background-color: #f6f6f6;
 }
