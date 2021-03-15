@@ -493,6 +493,15 @@ ol li {
   }
 }
 
+@media (max-width: 320px) {
+  .box {
+    width: 99%;
+    height: 100px;
+    bottom: 95px;
+    right: 0;
+  }
+}
+
 .flexOne {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -615,22 +624,13 @@ ol li {
   width: 50%;
 }
 
-.flex-travel .boxOne .box {
-  width: 98%;
-  height: 314px;
-  position: relative;
-  background: #9aedff;
-  bottom: 330px;
-  right: 86px;
-}
-
 .flex-travel .travelOne, .flex-travel .travelTwo {
   z-index: 10;
   position: relative;
 }
 
 .flex-travel .boxOne .boxTwo {
-  width: calc(98% - 20px);
+  width: calc(100% - 20px);
   height: 300px;
   position: relative;
   background: #9aedff;
@@ -645,6 +645,15 @@ ol li {
 
 .flex-travel .travelDiv, .flex-travel .favouriteDiv {
   margin: auto;
+}
+
+.boxOne .box {
+  width: 98%;
+  height: 314px;
+  position: relative;
+  background: #9aedff;
+  bottom: 330px;
+  right: 86px;
 }
 
 div.flex-travel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
@@ -891,7 +900,34 @@ div.flexBlogP:nth-child(2) {
 
 .formFlex form {
   width: 65%;
+}
+
+.formFlex form ::-webkit-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
   color: #171717;
+  opacity: 1;
+}
+
+.formFlex form :-ms-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
+}
+
+.formFlex form ::-ms-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
+}
+
+.formFlex form ::placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
 }
 
 .formFlex #subject {
@@ -913,13 +949,6 @@ div.flexBlogP:nth-child(2) {
   background: #f38d8d;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-}
-
-.formFlex .form-field {
-  font-family: "Cabin", sans-serif;
-  font-size: 20px;
-  color: #171717;
-  opacity: none;
 }
 
 .contactMe {
@@ -979,6 +1008,34 @@ div.flexBlogP:nth-child(2) {
 
 .contactForm form {
   width: 87%;
+}
+
+.contactForm form ::-webkit-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
+}
+
+.contactForm form :-ms-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
+}
+
+.contactForm form ::-ms-input-placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
+}
+
+.contactForm form ::placeholder {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  color: #171717;
+  opacity: 1;
 }
 
 .contactForm form #fname {

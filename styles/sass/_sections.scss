@@ -95,21 +95,13 @@
     .boxOne {
         width: 50%;
     }
-    .boxOne .box {
-        width: 98%;
-        height: 314px;
-        position: relative;
-        background:$primary2;
-        bottom: 330px;
-        right: 86px;
-    }
 
     .travelOne, .travelTwo {
         z-index: 10;
         position: relative;
     }
     .boxOne .boxTwo{
-        width: calc(98% - 20px);
+        width: calc(100% - 20px);
         height: 300px;
         position: relative;
         background:$primary2;
@@ -123,6 +115,14 @@
     .travelDiv, .favouriteDiv {
         margin: auto;
     }
+}
+.boxOne .box {
+        width: 98%;
+        height: 314px;
+        position: relative;
+        background:$primary2;
+        bottom: 330px;
+        right: 86px;
 }
 
 div.flex-travel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
@@ -329,7 +329,12 @@ border-bottom: 5px solid $primary1;
 
     form {
         width: 65%;
+        ::placeholder {
+        font-family: $bodyFont;
+        font-size: 20px;
         color:$black;
+        opacity: 1;
+        }
     }
     #subject {
     height: 400px;
@@ -350,12 +355,6 @@ border-bottom: 5px solid $primary1;
     background: $accent;
     font-family: $headerFont;
     font-size: 20px;
-    }
-    .form-field {
-        font-family: $bodyFont;
-        font-size: 20px;
-        color:$black;
-        opacity: none;
     }
 }
 
@@ -408,6 +407,12 @@ width: 60%;
 }
 .contactForm form {
   width: 87%;
+    ::placeholder {
+            font-family: $bodyFont;
+            font-size: 20px;
+            color:$black;
+            opacity: 1;
+    }
     #fname {
         width: 49.5%;
         padding: 10px;
