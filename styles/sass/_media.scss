@@ -7,17 +7,17 @@
     .boxOne div.box {
     right: 52px;
     }
-    .flex-travel .travelOne, .flex-travel div.travelTwo {
+    .flexTravel .travelOne, .flexTravel div.travelTwo {
     top: 34px;
     }
 }
 @media(max-width:1025px) {
-    .flex-travel .boxOne div.box {
+    .flexTravel .boxOne div.box {
     height: 281px;
     bottom: 300px;
     right: 2px;
     }
-    .flex-travel .boxOne div.boxTwo {
+    .flexTravel .boxOne div.boxTwo {
     height: 269px;
     bottom: 209px;
     }
@@ -29,14 +29,14 @@
     .favouriteDiv > h3:nth-child(1) {
     margin: 0;
     }
-    .flex-travel img.travelOne,
-    .flex-travel img.travelTwo {
+    .flexTravel img.travelOne,
+    .flexTravel img.travelTwo {
     width: 85%;
     }
-    .flex-travel img.travelTwo {
+    .flexTravel img.travelTwo {
     top: 41px;
     }
-    .travePadding div.flex-travel:nth-child(1) {
+    .travePadding div.flexTravel:nth-child(1) {
     margin-bottom: 40px;
     }
 
@@ -60,15 +60,15 @@
     ol :nth-child(3) {
         font-size: 24px;
     }
-    .flex-travel .travelDiv h3,
-    .flex-travel .favouriteDiv h3 {
+    .flexTravel .travelDiv h3,
+    .flexTravel .favouriteDiv h3 {
     font-size: 23px;
     }
-    .flex-travel .travelDiv p,
-    .flex-travel .favouriteDiv p {
+    .flexTravel .travelDiv p,
+    .flexTravel .favouriteDiv p {
     font-size: 16px;
     }
-    div.flex-travel {
+    div.flexTravel {
     height: 236px;
     }
     .travePadding {
@@ -76,20 +76,20 @@
     }
 }
 @media (max-width: 862px) {
-    .flex-travel .boxOne div.boxTwo {
+    .flexTravel .boxOne div.boxTwo {
     height: 221px;
     bottom: 132px;
     }
-    .flex-travel .boxOne div.box {
+    .flexTravel .boxOne div.box {
     height: 223px;
     bottom: 224px;
     right: 0px;
     }
-    .flex-travel img.travelOne {
+    .flexTravel img.travelOne {
     top: -24px;
     }
-    .flex-travel div.travelDiv,
-    .flex-travel div.favouriteDiv {
+    .flexTravel div.travelDiv,
+    .flexTravel div.favouriteDiv {
     width: 33%;
     }
 
@@ -97,7 +97,7 @@
     margin: 0;
     }
 
-    .flex-travel .travelOne, .flex-travel img.travelTwo {
+    .flexTravel .travelOne, .flexTravel img.travelTwo {
     top: 77px;
     }
 }
@@ -128,7 +128,7 @@
     flex-direction: column;
     align-items: center;
     }
-    .gallery .gallery-size li {
+    .gallery .gallerySize li {
     width: 100%;
     align-items: center;
     padding: 50px;
@@ -136,30 +136,30 @@
 }
 
  @media (max-width: 700px) {
-    div.flex-travel {
+    div.flexTravel {
         display: initial;
     }
-    .travePadding div.flex-travel:nth-child(1) {
+    .travePadding div.flexTravel:nth-child(1) {
     margin-bottom: 0;
     }
     .travePadding {
         height: 1000px;
     }
-    .flex-travel div.travelDiv,
-    .flex-travel div.favouriteDiv {
+    .flexTravel div.travelDiv,
+    .flexTravel div.favouriteDiv {
     width: 88%;
     }
-    .flex-travel div.travelDiv {
+    .flexTravel div.travelDiv {
     margin-top: -200px;
     position: relative;
     }
-    .flex-travel div.boxOne {
+    .flexTravel div.boxOne {
     width: 77%;
     }
-    .flex-travel img.travelOne {
+    .flexTravel img.travelOne {
     top: -13px;
     }
-    div.flex-travel .favouriteDiv {
+    div.flexTravel .favouriteDiv {
     margin-top: 50px;
     }
  }
@@ -221,28 +221,28 @@
     bottom: 95px;
     right: 0;
     }
-    div.flex-travel .favouriteDiv {
+    div.flexTravel .favouriteDiv {
     margin-top: 50px;
     }
-    .flex-travel .travelOne, .flex-travel img.travelTwo {
+    .flexTravel .travelOne, .flexTravel img.travelTwo {
     top: 56px;
     left: 80px;
     }
-    .flex-travel .boxOne div.boxTwo {
+    .flexTravel .boxOne div.boxTwo {
     height: 131px;
     bottom: 62px;
     left: 94px;
     }
-    .flex-travel .boxOne div.box {
+    .flexTravel .boxOne div.box {
     height: 128px;
     bottom: 149px;
     right: 1px;
     }
-    .flex-travel img.travelOne {
+    .flexTravel img.travelOne {
     top: -32px;
     left: -62px;
     }
-    .flex-travel div.travelDiv {
+    .flexTravel div.travelDiv {
     margin-top: -145px;
     }
     .travePadding {
@@ -258,7 +258,7 @@
     .sectionStyle .thirdSection p.sizeP {
     font-size: 16px;
     }
-    .flex-travel div.travelDiv, .flex-travel div.favouriteDiv {
+    .flexTravel div.travelDiv, .flexTravel div.favouriteDiv {
     width: 76%;
     }
     .journeySection > div:nth-child(1) {
@@ -270,7 +270,7 @@
     .journeyColor div.journey p {
     font-size: 16px;
     }
-    .gallery .gallery-size li {
+    .gallery .gallerySize li {
     padding: 20px;
     margin-left: 26px;
     }

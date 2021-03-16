@@ -373,18 +373,18 @@ ol li {
   .boxOne div.box {
     right: 52px;
   }
-  .flex-travel .travelOne, .flex-travel div.travelTwo {
+  .flexTravel .travelOne, .flexTravel div.travelTwo {
     top: 34px;
   }
 }
 
 @media (max-width: 1025px) {
-  .flex-travel .boxOne div.box {
+  .flexTravel .boxOne div.box {
     height: 281px;
     bottom: 300px;
     right: 2px;
   }
-  .flex-travel .boxOne div.boxTwo {
+  .flexTravel .boxOne div.boxTwo {
     height: 269px;
     bottom: 209px;
   }
@@ -396,14 +396,14 @@ ol li {
   .favouriteDiv > h3:nth-child(1) {
     margin: 0;
   }
-  .flex-travel img.travelOne,
-  .flex-travel img.travelTwo {
+  .flexTravel img.travelOne,
+  .flexTravel img.travelTwo {
     width: 85%;
   }
-  .flex-travel img.travelTwo {
+  .flexTravel img.travelTwo {
     top: 41px;
   }
-  .travePadding div.flex-travel:nth-child(1) {
+  .travePadding div.flexTravel:nth-child(1) {
     margin-bottom: 40px;
   }
 }
@@ -430,15 +430,15 @@ ol li {
   ol :nth-child(3) {
     font-size: 24px;
   }
-  .flex-travel .travelDiv h3,
-  .flex-travel .favouriteDiv h3 {
+  .flexTravel .travelDiv h3,
+  .flexTravel .favouriteDiv h3 {
     font-size: 23px;
   }
-  .flex-travel .travelDiv p,
-  .flex-travel .favouriteDiv p {
+  .flexTravel .travelDiv p,
+  .flexTravel .favouriteDiv p {
     font-size: 16px;
   }
-  div.flex-travel {
+  div.flexTravel {
     height: 236px;
   }
   .travePadding {
@@ -447,26 +447,26 @@ ol li {
 }
 
 @media (max-width: 862px) {
-  .flex-travel .boxOne div.boxTwo {
+  .flexTravel .boxOne div.boxTwo {
     height: 221px;
     bottom: 132px;
   }
-  .flex-travel .boxOne div.box {
+  .flexTravel .boxOne div.box {
     height: 223px;
     bottom: 224px;
     right: 0px;
   }
-  .flex-travel img.travelOne {
+  .flexTravel img.travelOne {
     top: -24px;
   }
-  .flex-travel div.travelDiv,
-  .flex-travel div.favouriteDiv {
+  .flexTravel div.travelDiv,
+  .flexTravel div.favouriteDiv {
     width: 33%;
   }
   .favouriteDiv > h3:nth-child(1) {
     margin: 0;
   }
-  .flex-travel .travelOne, .flex-travel img.travelTwo {
+  .flexTravel .travelOne, .flexTravel img.travelTwo {
     top: 77px;
   }
 }
@@ -506,7 +506,7 @@ ol li {
         -ms-flex-align: center;
             align-items: center;
   }
-  .gallery .gallery-size li {
+  .gallery .gallerySize li {
     width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -516,30 +516,30 @@ ol li {
 }
 
 @media (max-width: 700px) {
-  div.flex-travel {
+  div.flexTravel {
     display: initial;
   }
-  .travePadding div.flex-travel:nth-child(1) {
+  .travePadding div.flexTravel:nth-child(1) {
     margin-bottom: 0;
   }
   .travePadding {
     height: 1000px;
   }
-  .flex-travel div.travelDiv,
-  .flex-travel div.favouriteDiv {
+  .flexTravel div.travelDiv,
+  .flexTravel div.favouriteDiv {
     width: 88%;
   }
-  .flex-travel div.travelDiv {
+  .flexTravel div.travelDiv {
     margin-top: -200px;
     position: relative;
   }
-  .flex-travel div.boxOne {
+  .flexTravel div.boxOne {
     width: 77%;
   }
-  .flex-travel img.travelOne {
+  .flexTravel img.travelOne {
     top: -13px;
   }
-  div.flex-travel .favouriteDiv {
+  div.flexTravel .favouriteDiv {
     margin-top: 50px;
   }
 }
@@ -604,28 +604,28 @@ ol li {
     bottom: 95px;
     right: 0;
   }
-  div.flex-travel .favouriteDiv {
+  div.flexTravel .favouriteDiv {
     margin-top: 50px;
   }
-  .flex-travel .travelOne, .flex-travel img.travelTwo {
+  .flexTravel .travelOne, .flexTravel img.travelTwo {
     top: 56px;
     left: 80px;
   }
-  .flex-travel .boxOne div.boxTwo {
+  .flexTravel .boxOne div.boxTwo {
     height: 131px;
     bottom: 62px;
     left: 94px;
   }
-  .flex-travel .boxOne div.box {
+  .flexTravel .boxOne div.box {
     height: 128px;
     bottom: 149px;
     right: 1px;
   }
-  .flex-travel img.travelOne {
+  .flexTravel img.travelOne {
     top: -32px;
     left: -62px;
   }
-  .flex-travel div.travelDiv {
+  .flexTravel div.travelDiv {
     margin-top: -145px;
   }
   .travePadding {
@@ -641,7 +641,7 @@ ol li {
   .sectionStyle .thirdSection p.sizeP {
     font-size: 16px;
   }
-  .flex-travel div.travelDiv, .flex-travel div.favouriteDiv {
+  .flexTravel div.travelDiv, .flexTravel div.favouriteDiv {
     width: 76%;
   }
   .journeySection > div:nth-child(1) {
@@ -653,7 +653,7 @@ ol li {
   .journeyColor div.journey p {
     font-size: 16px;
   }
-  .gallery .gallery-size li {
+  .gallery .gallerySize li {
     padding: 20px;
     margin-left: 26px;
   }
@@ -745,7 +745,7 @@ ol li {
   letter-spacing: 0px;
 }
 
-.flex-travel {
+.flexTravel {
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -755,11 +755,11 @@ ol li {
           justify-content: space-between;
 }
 
-.flex-travel div {
+.flexTravel div {
   width: 39%;
 }
 
-.flex-travel h3 {
+.flexTravel h3 {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-size: 32px;
@@ -767,12 +767,12 @@ ol li {
   margin-bottom: 0;
 }
 
-.flex-travel img {
+.flexTravel img {
   width: 70%;
   z-index: 10;
 }
 
-.flex-travel p {
+.flexTravel p {
   font-family: "Cabin", sans-serif;
   font-size: 20px;
   line-height: 28px;
@@ -780,16 +780,16 @@ ol li {
   padding: 10px 0;
 }
 
-.flex-travel .boxOne {
+.flexTravel .boxOne {
   width: 50%;
 }
 
-.flex-travel .travelOne, .flex-travel .travelTwo {
+.flexTravel .travelOne, .flexTravel .travelTwo {
   z-index: 10;
   position: relative;
 }
 
-.flex-travel .boxOne .boxTwo {
+.flexTravel .boxOne .boxTwo {
   width: calc(100% - 20px);
   height: 300px;
   position: relative;
@@ -798,12 +798,12 @@ ol li {
   left: 20px;
 }
 
-.flex-travel .travelOne {
+.flexTravel .travelOne {
   margin-left: 83px;
   top: -43px;
 }
 
-.flex-travel .travelDiv, .flex-travel .favouriteDiv {
+.flexTravel .travelDiv, .flexTravel .favouriteDiv {
   margin: auto;
 }
 
@@ -816,8 +816,8 @@ ol li {
   right: 86px;
 }
 
-div.flex-travel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
-div.flex-travel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
+div.flexTravel:nth-child(1) > div:nth-child(2) > button:nth-child(3),
+div.flexTravel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
   font-family: 20px;
   padding: 8px 16px;
   text-align: center;
@@ -884,7 +884,7 @@ div.flex-travel:nth-child(2) > div:nth-child(1) > button:nth-child(3) {
   width: 100%;
 }
 
-div.flex-travel:nth-child(1) {
+div.flexTravel:nth-child(1) {
   margin-bottom: 80px;
 }
 
@@ -969,13 +969,13 @@ footer p {
 }
 
 .flexContainer .firstDiv div {
-  background-color: #ffffff;
+  background-color: #ffff;
   padding: 20px;
 }
 
 .flexContainer .secondDiv {
   width: 65%;
-  background-color: #ffffff;
+  background-color: #ffff;
   padding: 20px;
   border-bottom: 5px solid #227284;
 }
