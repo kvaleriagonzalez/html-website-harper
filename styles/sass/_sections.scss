@@ -218,9 +218,10 @@ footer {
     }
 }
 
-// blog
+// Blog
 
 .blog {
+    height: 50vh;
     .blogImage {
         height: 100%;
     }
@@ -231,6 +232,9 @@ footer {
         bottom: 260px;
         text-transform: uppercase;
         margin-left:140px;
+    }
+    .blogLi {
+        color: $white;
     }
 }
 
@@ -269,6 +273,8 @@ footer {
         margin-top:25px;
         ul li {
             margin-left:20px;
+            font-size: 20px;
+            font-family: $bodyFont;
         }
     }
     h4 {
@@ -290,7 +296,7 @@ border-bottom: 5px solid $primary1;
         background-color: $white;
         padding: 20px;
         display: flex;
-        margin-left: 403px;
+        margin-left: 35%;
         margin-bottom: 20px;
         font-family: $bodyFont;
         font-size: 20px;
@@ -359,7 +365,7 @@ border-bottom: 5px solid $primary1;
     }
 }
 
-// contact page
+// Contact page
 
 .contactMe {
     height: 50vh;

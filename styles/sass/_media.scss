@@ -39,6 +39,9 @@
     .travePadding div.flexTravel:nth-child(1) {
     margin-bottom: 40px;
     }
+    header.blog h2 {
+    margin-left: 5%;
+    }
 
 }
 @media (max-width: 900px) {
@@ -46,19 +49,19 @@
     flex-direction: column;
     }
     header h1 {
-        font-size: 87px;
-        top: 118px;
+    font-size: 87px;
+    top: 118px;
     }
     header .circlePhoto {
-        right: 75px;
-        width: 105px;
-        bottom: -93px;
+    right: 75px;
+    width: 105px;
+    bottom: -93px;
     }
     ol li {
-        font-size: 14px;
+    font-size: 14px;
     }
     ol :nth-child(3) {
-        font-size: 24px;
+    font-size: 24px;
     }
     .flexTravel .travelDiv h3,
     .flexTravel .favouriteDiv h3 {
@@ -92,11 +95,9 @@
     .flexTravel div.favouriteDiv {
     width: 33%;
     }
-
     .favouriteDiv > h3:nth-child(1) {
     margin: 0;
     }
-
     .flexTravel .travelOne, .flexTravel img.travelTwo {
     top: 77px;
     }
@@ -104,19 +105,18 @@
 
 @media (max-width: 755px) {
     .mediaHeader {
-        flex-direction: column;
-        width: 300px;
-        margin-left: 21%;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 21%;
     }
     header h1 {
-        top: 129px;
+    top: 129px;
     }
     header .circlePhoto {
-        bottom: -106px;
+    bottom: -106px;
     }
-
     ol li {
-        margin-right:39px;
+    margin-right:39px;
     }
     .journeySection{
     align-items: center;
@@ -133,17 +133,45 @@
     align-items: center;
     padding: 50px;
     }
+
+    //Blog media Query 
+    div.flexContainer {
+    display: initial;
+    }
+    div.flexContainer .firstDiv,
+    div.formFlex form {
+    width: initial;
+    }
+    div.flexContainer .secondDiv {
+    width: initial;
+    margin-top: 20px;
+    }
+    div.flexEnd .flexBlogP {
+    margin-left: initial;
+    }
+    header.blog h2 {
+    font-size: 55px;
+    bottom: 267px;
+    }
+    section.blogOne p,
+    div.flexContainer div.post ul li, 
+    div.formFlex form ::placeholder,
+    div.formFlex .postComment,
+    div.flexEnd div.flexBlogP {
+    font-size: 16px;
+    }
+    
 }
 
  @media (max-width: 700px) {
     div.flexTravel {
-        display: initial;
+    display: initial;
     }
     .travePadding div.flexTravel:nth-child(1) {
     margin-bottom: 0;
     }
     .travePadding {
-        height: 1000px;
+    height: 1000px;
     }
     .flexTravel div.travelDiv,
     .flexTravel div.favouriteDiv {
@@ -166,51 +194,60 @@
 
 @media (max-width: 540px) {
     .mediaHeader {
-        margin-left: 15%;
+    margin-left: 15%;
     }
     .hideNav {
-        display: none;
+    display: none;
     }
     .sectionStyle .sectionThirdFlex .thirdSection {
-        width: 97%;
+    width: 97%;
     }
     .sectionThirdFlex {
-        flex-direction: column;
+    flex-direction: column;
     }
     .flexOne .sizeP, .thirdSection .sizeP {
-        font-size: 18px;
+    font-size: 18px;
     }
     .sectionStyle .sectionThirdFlex div .sizeH3 {
-        font-size: 23px;
+    font-size: 23px;
     }
-
+    div.flexEnd div.flexBlogP {
+    flex-direction: column;
+    }
+    div.flexEnd div.flexBlogP p:first-child {
+    margin: 10px 0;
+    } 
+    div.formFlex .postComment {
+    margin-bottom: 100px;
+    }
 }
 
 @media (min-width:540px) {
     #myLinks > a, .icon {
-        display:none;
+    display:none;
     }
-
 }
+
+
 @media (max-width: 400px) {
     .mediaHeader {
-        margin-left: 6%;
+    margin-left: 6%;
     }
     header .harperPicture {
-        width: 72%;
-        top: 120px;
-        box-shadow: none; 
+    width: 72%;
+    top: 120px;
+    box-shadow: none; 
     }
     header h1 {
-        font-size: 58px;
-        top: 140px;
-        }
+    font-size: 58px;
+    top: 140px;
+    }
     header .circlePhoto {
-        right: 47px;
-        width: 76px;
-        bottom: -45px;
-        transform: rotate(1deg);
-        }
+    right: 47px;
+    width: 76px;
+    bottom: -45px;
+    transform: rotate(1deg);
+    }
 }
 
 @media (max-width: 320px) {
@@ -251,11 +288,10 @@
     h2 {
     font-size: 22px;
     }
-    .flexOne .sizeP, .thirdSection .sizeP {
-    font-size: 18px;
-    font-size: 16px;
-    }
-    .sectionStyle .thirdSection p.sizeP {
+    .flexOne .sizeP, .thirdSection .sizeP,
+    .sectionStyle .thirdSection p.sizeP,
+    .journeyColor div.journey p,
+    footer.copyright p {
     font-size: 16px;
     }
     .flexTravel div.travelDiv, .flexTravel div.favouriteDiv {
@@ -267,15 +303,12 @@
     .journeyColor div.journey h3 {
     font-size: 27px;
     }
-    .journeyColor div.journey p {
-    font-size: 16px;
-    }
     .gallery .gallerySize li {
     padding: 20px;
     margin-left: 26px;
     }
-    footer.copyright p {
-    font-size: 16px;
+    header.blog h2 {
+    margin-left: 20px;
     }
 }
 // @media (max-width: px) {}
