@@ -4,6 +4,42 @@
     width: 90%;
     margin: 0 24px;
     }
+    .boxOne div.box {
+    right: 52px;
+    }
+    .flex-travel .travelOne, .flex-travel div.travelTwo {
+    top: 34px;
+    }
+}
+@media(max-width:1025px) {
+    .flex-travel .boxOne div.box {
+    height: 281px;
+    bottom: 300px;
+    right: 2px;
+    }
+    .flex-travel .boxOne div.boxTwo {
+    height: 269px;
+    bottom: 209px;
+    }
+    .boxOne div.box {
+    right: 40px;
+    height: 259px;
+    bottom: 281px;
+    }
+    .favouriteDiv > h3:nth-child(1) {
+    margin: 0;
+    }
+    .flex-travel img.travelOne,
+    .flex-travel img.travelTwo {
+    width: 85%;
+    }
+    .flex-travel img.travelTwo {
+    top: 41px;
+    }
+    .travePadding div.flex-travel:nth-child(1) {
+    margin-bottom: 40px;
+    }
+
 }
 @media (max-width: 900px) {
     .journeySection {
@@ -23,6 +59,46 @@
     }
     ol :nth-child(3) {
         font-size: 24px;
+    }
+    .flex-travel .travelDiv h3,
+    .flex-travel .favouriteDiv h3 {
+    font-size: 23px;
+    }
+    .flex-travel .travelDiv p,
+    .flex-travel .favouriteDiv p {
+    font-size: 16px;
+    }
+    div.flex-travel {
+    height: 236px;
+    }
+    .travePadding {
+    padding-bottom: 50px;
+    }
+}
+@media (max-width: 862px) {
+    .flex-travel .boxOne div.boxTwo {
+    height: 221px;
+    bottom: 132px;
+    }
+    .flex-travel .boxOne div.box {
+    height: 223px;
+    bottom: 224px;
+    right: 0px;
+    }
+    .flex-travel img.travelOne {
+    top: -24px;
+    }
+    .flex-travel div.travelDiv,
+    .flex-travel div.favouriteDiv {
+    width: 33%;
+    }
+
+    .favouriteDiv > h3:nth-child(1) {
+    margin: 0;
+    }
+
+    .flex-travel .travelOne, .flex-travel img.travelTwo {
+    top: 77px;
     }
 }
 
@@ -58,6 +134,35 @@
     padding: 50px;
     }
 }
+
+ @media (max-width: 700px) {
+    div.flex-travel {
+        display: initial;
+    }
+    .travePadding div.flex-travel:nth-child(1) {
+    margin-bottom: 0;
+    }
+    .travePadding {
+        height: 1000px;
+    }
+    .flex-travel div.travelDiv,
+    .flex-travel div.favouriteDiv {
+    width: 88%;
+    }
+    .flex-travel div.travelDiv {
+    margin-top: -200px;
+    position: relative;
+    }
+    .flex-travel div.boxOne {
+    width: 77%;
+    }
+    .flex-travel img.travelOne {
+    top: -13px;
+    }
+    div.flex-travel .favouriteDiv {
+    margin-top: 50px;
+    }
+ }
 
 @media (max-width: 540px) {
     .mediaHeader {
@@ -115,6 +220,62 @@
     height: 100px;
     bottom: 95px;
     right: 0;
+    }
+    div.flex-travel .favouriteDiv {
+    margin-top: 50px;
+    }
+    .flex-travel .travelOne, .flex-travel img.travelTwo {
+    top: 56px;
+    left: 80px;
+    }
+    .flex-travel .boxOne div.boxTwo {
+    height: 131px;
+    bottom: 62px;
+    left: 94px;
+    }
+    .flex-travel .boxOne div.box {
+    height: 128px;
+    bottom: 149px;
+    right: 1px;
+    }
+    .flex-travel img.travelOne {
+    top: -32px;
+    left: -62px;
+    }
+    .flex-travel div.travelDiv {
+    margin-top: -145px;
+    }
+    .travePadding {
+    height: 867px;
+    }
+    h2 {
+    font-size: 22px;
+    }
+    .flexOne .sizeP, .thirdSection .sizeP {
+    font-size: 18px;
+    font-size: 16px;
+    }
+    .sectionStyle .thirdSection p.sizeP {
+    font-size: 16px;
+    }
+    .flex-travel div.travelDiv, .flex-travel div.favouriteDiv {
+    width: 76%;
+    }
+    .journeySection > div:nth-child(1) {
+    width: 60%;
+    }
+    .journeyColor div.journey h3 {
+    font-size: 27px;
+    }
+    .journeyColor div.journey p {
+    font-size: 16px;
+    }
+    .gallery .gallery-size li {
+    padding: 20px;
+    margin-left: 26px;
+    }
+    footer.copyright p {
+    font-size: 16px;
     }
 }
 // @media (max-width: px) {}

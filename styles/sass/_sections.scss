@@ -190,6 +190,7 @@ div.flex-travel:nth-child(1) {
     background-color: $primary4;
 }
 .gallery {
+    margin:50px 0;
     ul li {
     display: flex;
     width:33%;
@@ -412,7 +413,7 @@ width: 60%;
             font-size: 20px;
             color:$black;
             opacity: 1;
-    }
+            }
     #fname {
         width: 49.5%;
         padding: 10px;
