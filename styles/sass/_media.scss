@@ -42,6 +42,12 @@
     header.blog h2 {
     margin-left: 5%;
     }
+    div.contactForm form #fname {
+    width: 100%;
+    }
+    div.contactForm form #email {
+    width: 100%;
+    }
 
 }
 @media (max-width: 900px) {
@@ -190,6 +196,28 @@
     div.flexTravel .favouriteDiv {
     margin-top: 50px;
     }
+    div.flexContactDiv {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 150px;
+    }
+    div.contactForm {
+    width: 100%;
+    }
+    div.contactForm form .submit {
+    margin-bottom: 50px;
+    }
+    div.iconsDiv {
+    width: 85%;
+    margin-bottom: 100px;
+    margin-right: 13%;
+    }
+    header.contactMe h2 {
+    margin-left: 5%;
+    font-size: 52px;
+    bottom: 269px;
+    }
+
  }
 
 @media (max-width: 540px) {
@@ -219,6 +247,9 @@
     } 
     div.formFlex .postComment {
     margin-bottom: 100px;
+    }
+    header.blog h2 {
+    bottom: 292px;
     }
     
 }
@@ -250,6 +281,16 @@
     bottom: -45px;
     transform: rotate(1deg);
     }
+    header.contactMe h2 {
+    font-size: 46px;
+    bottom: 296px;
+    }
+    ul.styleIcons,
+    div.contactForm form ::placeholder,
+    div.contactForm form .submit {
+    font-size: 16px;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -312,10 +353,14 @@
     header.blog h2 {
     margin-left: 20px;
     }
+    div.flexContactDiv {
+    margin-left: 8%;
+    }
+    header.contactMe h2 {
+    font-size: 39px;
+    margin-left:30px;
+    }
 }
-// @media (max-width: px) {}
-// @media (max-width: px) {}
-// @media (max-width: px) {}
-// @media (max-width: px) {}
+
 
     

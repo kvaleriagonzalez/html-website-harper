@@ -347,7 +347,8 @@ ol li {
   font-family: "Oswald", sans-serif;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .topnav a.icon {
@@ -408,6 +409,12 @@ ol li {
   }
   header.blog h2 {
     margin-left: 5%;
+  }
+  div.contactForm form #fname {
+    width: 100%;
+  }
+  div.contactForm form #email {
+    width: 100%;
   }
 }
 
@@ -591,6 +598,32 @@ ol li {
   div.flexTravel .favouriteDiv {
     margin-top: 50px;
   }
+  div.flexContactDiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 150px;
+  }
+  div.contactForm {
+    width: 100%;
+  }
+  div.contactForm form .submit {
+    margin-bottom: 50px;
+  }
+  div.iconsDiv {
+    width: 85%;
+    margin-bottom: 100px;
+    margin-right: 13%;
+  }
+  header.contactMe h2 {
+    margin-left: 5%;
+    font-size: 52px;
+    bottom: 269px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -627,10 +660,14 @@ ol li {
   div.formFlex .postComment {
     margin-bottom: 100px;
   }
+  header.blog h2 {
+    bottom: 292px;
+  }
 }
 
 @media (min-width: 540px) {
-  .myLinks > a, .icon {
+  .blog #myLinks > a, .icon,
+  #myLinks > a, .icon {
     display: none;
   }
 }
@@ -655,6 +692,30 @@ ol li {
     bottom: -45px;
     -webkit-transform: rotate(1deg);
             transform: rotate(1deg);
+  }
+  header.contactMe h2 {
+    font-size: 46px;
+    bottom: 296px;
+  }
+  ul.styleIcons,
+  div.contactForm form ::-webkit-input-placeholder,
+  div.contactForm form .submit {
+    font-size: 16px;
+  }
+  ul.styleIcons,
+  div.contactForm form :-ms-input-placeholder,
+  div.contactForm form .submit {
+    font-size: 16px;
+  }
+  ul.styleIcons,
+  div.contactForm form ::-ms-input-placeholder,
+  div.contactForm form .submit {
+    font-size: 16px;
+  }
+  ul.styleIcons,
+  div.contactForm form ::placeholder,
+  div.contactForm form .submit {
+    font-size: 16px;
   }
 }
 
@@ -716,6 +777,13 @@ ol li {
   }
   header.blog h2 {
     margin-left: 20px;
+  }
+  div.flexContactDiv {
+    margin-left: 8%;
+  }
+  header.contactMe h2 {
+    font-size: 39px;
+    margin-left: 30px;
   }
 }
 
@@ -1197,6 +1265,10 @@ div.flexBlogP:nth-child(2) {
 
 .contactMe img {
   height: 100%;
+}
+
+.contactMe .contactLi {
+  color: #ffff;
 }
 
 .iconsDiv {

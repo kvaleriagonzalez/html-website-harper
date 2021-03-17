@@ -12,15 +12,28 @@
 </head>
 <body>
     <header class="contactMe">
-        <nav>
+        <nav class="hideNav">
             <ol>
                <li><a href=""></a>Home</li>
                <li><a href=""></a>About</li>
                <li><a href=""></a>harper</li>
                <li><a href=""></a>blog</li>
-               <li><a href=""></a>contact</li>
+               <li class="contactLi"><a href=""></a>contact</li>
             </ol>
         </nav>
+        <div class="mobileContainer">
+                <div class="topnav">
+                    <div id="myLinks">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+        </div>
         <img class="blogImage" src="./assets/contact-image-1.jpg" alt="">
         <h2>contact me</h2>
     </header>
@@ -64,8 +77,9 @@
             
         </section>
     </main>
-    <footer>
-        <p>copyright<span>&#169;</span> 2018 hacker you </p>
+    <footer class="copyright">
+        <p>Copyright<span>&#169;</span> 2021 Juno College </p>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
