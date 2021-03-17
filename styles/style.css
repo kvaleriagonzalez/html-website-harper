@@ -630,7 +630,7 @@ ol li {
 }
 
 @media (min-width: 540px) {
-  #myLinks > a, .icon {
+  .myLinks > a, .icon {
     display: none;
   }
 }

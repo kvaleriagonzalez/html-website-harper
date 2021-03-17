@@ -220,9 +220,11 @@
     div.formFlex .postComment {
     margin-bottom: 100px;
     }
+    
 }
 
 @media (min-width:540px) {
+    .blog #myLinks > a, .icon,
     #myLinks > a, .icon {
     display:none;
     }
