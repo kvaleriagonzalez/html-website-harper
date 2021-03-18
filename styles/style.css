@@ -788,6 +788,21 @@ ol li a {
     font-size: 39px;
     margin-left: 30px;
   }
+  header.home {
+    height: 50vh;
+  }
+  header.blog {
+    height: 17vh;
+  }
+  header.contactMe {
+    height: 27vh;
+  }
+  header.blog h2 {
+    top: 238px;
+  }
+  header.contactMe h2 {
+    top: 385px;
+  }
 }
 
 .flexOne {
