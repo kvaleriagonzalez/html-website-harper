@@ -334,11 +334,14 @@ ol :nth-child(5) {
 ol li {
   margin-right: 75px;
   text-transform: uppercase;
-  color: #171717;
   font-size: 20px;
   line-height: 29px;
   letter-spacing: 1px;
   font-family: "Oswald", sans-serif;
+}
+
+ol li a {
+  color: #171717;
 }
 
 .topnav a {

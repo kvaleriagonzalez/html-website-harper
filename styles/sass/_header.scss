@@ -43,12 +43,14 @@ ol {
     }
     li {
     margin-right:75px;
-    text-transform: uppercase;
-    color:$black;    
+    text-transform: uppercase;   
     font-size:20px;
     line-height: 29px;
     letter-spacing: 1px;   
     font-family: $headerFont;
+     a {
+        color:$black; 
+     }
     }
 }
 
@@ -67,7 +69,7 @@ ol {
     }
      #myLinks {
   display: none;
-   }   
+   }
 }
 
 #myLinks > a:nth-child(4),
