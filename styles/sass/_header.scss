@@ -26,6 +26,13 @@ header {
         width: 152px;
         bottom: 6px;
     }
+    .fromRight {
+        transform: translateX(126%);
+         transition: transform 1000ms ease-in;
+    }
+    .fromRight.appear {
+        transform: translateX(0);
+    }
 }
 
 ol {

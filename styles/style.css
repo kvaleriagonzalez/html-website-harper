@@ -309,6 +309,20 @@ header .circlePhoto {
   bottom: 6px;
 }
 
+header .fromRight {
+  -webkit-transform: translateX(126%);
+          transform: translateX(126%);
+  -webkit-transition: -webkit-transform 1000ms ease-in;
+  transition: -webkit-transform 1000ms ease-in;
+  transition: transform 1000ms ease-in;
+  transition: transform 1000ms ease-in, -webkit-transform 1000ms ease-in;
+}
+
+header .fromRight.appear {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
 ol {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -803,6 +817,24 @@ ol li a {
   header.contactMe h2 {
     top: 385px;
   }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body .fromRight {
+  -webkit-transform: translateX(126%);
+          transform: translateX(126%);
+  -webkit-transition: -webkit-transform 800ms ease-in;
+  transition: -webkit-transform 800ms ease-in;
+  transition: transform 800ms ease-in;
+  transition: transform 800ms ease-in, -webkit-transform 800ms ease-in;
+}
+
+body .fromRight.appear {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .flexOne {
@@ -1325,6 +1357,20 @@ div.flexBlogP:nth-child(2) {
 
 .contactForm {
   width: 60%;
+}
+
+.contactForm form.fromRightForm {
+  -webkit-transform: translateX(140%);
+          transform: translateX(140%);
+  -webkit-transition: -webkit-transform 800ms ease-in;
+  transition: -webkit-transform 800ms ease-in;
+  transition: transform 800ms ease-in;
+  transition: transform 800ms ease-in, -webkit-transform 800ms ease-in;
+}
+
+.contactForm .fromRightForm.appear {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .contactForm form {
